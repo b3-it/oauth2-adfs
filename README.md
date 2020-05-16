@@ -4,7 +4,7 @@
 [![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/b3-it/oauth2-adfs.svg?style=flat-square)](https://scrutinizer-ci.com/g/b3-it/oauth2-adfs/code-structure)
 [![Quality Score](https://img.shields.io/scrutinizer/g/b3-it/oauth2-adfs.svg?style=flat-square)](https://scrutinizer-ci.com/g/b3-it/oauth2-adfs)
 [![Total Downloads](https://img.shields.io/packagist/dt/b3-it/oauth2-adfs.svg?style=flat-square)](https://packagist.org/packages/b3-it/oauth2-adfs)
-[![Software License](https://img.shields.io/packagist/l/b3-it/oauth2-adfs.svg?style=flat-square)](LICENSE.md)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/b3-it/oauth2-adfs/blob/master/LICENSE)
 
 This package provides Microsoft ADFS OAuth 2.0 support for the PHP League's [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client).
 
