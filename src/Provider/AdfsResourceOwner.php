@@ -69,18 +69,18 @@ class AdfsResourceOwner extends GenericResourceOwner
      * @param AccessToken $token
      * @return array
      */
-    protected function parseToken(AccessToken $token) {
-        if (is_string($token)) {
+    protected function parseToken(AccessToken $accessToken) {
+        if (is_string($accessToken)) {
             return null;
         }
 
-        $tokenValues = $token->getValues();
+        $tokenValues = $accessToken->getValues();
 
         $tokens = [];
         if (isset($tokenValues['id_token'])) {
             $tokens[] = $tokenValues['id_token'];
         }
-        $tokens[] = $token->getToken();
+        $tokens[] = $accessToken->getToken();
 
         $data = [];
         foreach ($tokens as $token) {
@@ -93,7 +93,7 @@ class AdfsResourceOwner extends GenericResourceOwner
                 continue;
             }
             $token = $token[1];
-            $json = base64_decode($token);
+            $json = base64_decode(strtr($token, '-_', '+/'));
 
             if (!is_string($json)) {
                 continue;
