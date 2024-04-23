@@ -93,6 +93,7 @@ class AdfsResourceOwner extends GenericResourceOwner
                 continue;
             }
             $token = $token[1];
+            // Convert Base64URL to Base64 by replacing “-” with “+” and “_” with “/”
             $json = base64_decode(strtr($token, '-_', '+/'));
 
             if (!is_string($json)) {
