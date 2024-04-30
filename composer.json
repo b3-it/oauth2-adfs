@@ -1,6 +1,6 @@
 {
     "name": "b3-it/oauth2-adfs",
-    "version": "1.0.0.0",
+    "version": "1.0.1.0",
     "description": "Microsoft Active Directory Federation Service (ADFS) OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
     "license": "MIT",
     "authors": [
