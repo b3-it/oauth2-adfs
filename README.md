@@ -1,6 +1,5 @@
 # Microsoft ADFS Provider for OAuth 2.0 Client
 [![Latest Version](https://img.shields.io/github/release/b3-it/oauth2-adfs.svg?style=flat-square)](https://github.com/b3-it/oauth2-adfs/releases)
-[![Build Status](https://img.shields.io/travis/b3-it/oauth2-adfs/master.svg?style=flat-square)](https://travis-ci.org/b3-it/oauth2-adfs)
 [![Coverage Status](https://img.shields.io/coveralls/thephpleague/oauth2-client/master.svg?style=flat-square)](https://coveralls.io/r/b3-it/oauth2-adfs?branch=master)
 [![Total Downloads](https://img.shields.io/packagist/dt/b3-it/oauth2-adfs.svg?style=flat-square)](https://packagist.org/packages/b3-it/oauth2-adfs)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/b3-it/oauth2-adfs/blob/master/LICENSE)
